@@ -10,6 +10,7 @@
 
       # https://nixos.wiki/wiki/Development_environment_with_nix-shell
       defaultPackage = pkgs.mkShell {
+        name = "DosBox";
         nativeBuildInputs = [ pkgs.dosbox ];
       };
     });
