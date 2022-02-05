@@ -1,0 +1,5 @@
+# Nix Flakes
+flake.lock
+
+# https://direnv.net/
+.direnv/
